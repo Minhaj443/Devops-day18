@@ -7,6 +7,6 @@ services:
     ports:
       - "80:80"
     restart: always
-volumes:
+    volumes:
       - ./index.html:/usr/share/nginx/html/index.html
     restart: always
